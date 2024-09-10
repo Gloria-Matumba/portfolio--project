@@ -125,5 +125,18 @@ p {
     display: block;
     padding: 25px 20px;
   }
+  .intro h1 {
+    font-size: 45px;
+  }
+  .intro h2{
+    font-sizze: 35px;
+  }
+  .intro h3 {
+    font-size: 25px;
+  }
+  .intro {
+    text-align: center;
+    margin: 0;
+  }
 }
 
