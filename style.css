@@ -23,30 +23,32 @@
   margin-bottom: 150px;
 }
 
-h1 {
+.intro h1 {
   display: block;
   margin: 0;
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  font-size: 50px;
   line-height: 34px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
-h2 {
+.intro h2 {
   text-align: center;
   margin: 0;
   display: block;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 32px;
+
   line-height: 72px;
+  margin-bottom: 60px;
 }
 
-h3 {
+.intro h3 {
   text-align: center;
   margin: 0;
   opacity: 0.7;
+  font-size: 20px;
 }
 
 p {
@@ -113,12 +115,26 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .container-fluid {
     text-align: center;
   }
   .primary-link {
     display: block;
     padding: 25px 20px;
+  }
+
+  .intro h1 {
+    font-size: 45px;
+  }
+  .intro h2 {
+    font-size: 35px;
+  }
+  .intro h3 {
+    font-size: 25px;
+  }
+  .intro {
+    text-align: center;
+    margin: 0;
   }
 }
