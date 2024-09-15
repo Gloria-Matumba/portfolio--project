@@ -28,6 +28,7 @@
   margin: 0;
   font-family: "Playfair Display", serif;
   font-weight: 900;
+  font-size: 100px;
   line-height: 34px;
   text-align: center;
   margin-bottom: 60px;
@@ -39,7 +40,7 @@
   display: block;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-
+  font-size: 45px;
   line-height: 72px;
   margin-bottom: 60px;
 }
@@ -123,7 +124,6 @@ p {
     display: block;
     padding: 25px 20px;
   }
-
   .intro h1 {
     font-size: 45px;
   }
